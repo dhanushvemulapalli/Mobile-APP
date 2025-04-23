@@ -7,7 +7,7 @@
             "mainClass": "${file}",
             "classPaths": [
                 "${workspaceFolder}/src",
-                "${workspaceFolder}/lib/sqlite-jdbc-*.jar" // Adjust this path if needed
+                "${workspaceFolder}/lib/lib/sqlite-jdbc-3.49.1.0.jar" // Adjust this path if needed
             ]
         },
         {
@@ -17,7 +17,7 @@
             "mainClass": "DatabaseHelper",
             "classPaths": [
                 "${workspaceFolder}/src",
-                "${workspaceFolder}/lib/sqlite-jdbc-*.jar"
+                "${workspaceFolder}/lib/lib/sqlite-jdbc-3.49.1.0.jar"
             ]
         }
     ]
